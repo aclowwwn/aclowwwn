@@ -1,0 +1,135 @@
+{
+  "name": "intro",
+  "routes": {
+    "main": {
+      "title": "Welcome",
+      "icon": "home",
+      "path": "/",
+      "extendedMenu": [
+        {
+          "id": "xp",
+          "title": "XP",
+          "path": "/xp"
+        },
+        {
+          "id": "contact",
+          "title": "Contact Me",
+          "path": "/contact"
+        }
+      ],
+      "cover": {
+        "opacity": 0,
+        "backgroundColor": "#fffff",
+        "navigation": true,
+        "color": "#7e57c2",
+        "title": "Developer. Teacher. Clown.",
+        "subtitle": "In progress...",
+        "type": "default"
+      },
+      "components": {
+        "intro": {
+          "source": "summary",
+          "text": "local://intro",
+          "image": "confetti.svg",
+          "textColor": "#7e57c2",
+          "animation": true,
+          "animationType": "zoom",
+          "animationOptions": ["top"]
+        },
+        "beginning": {
+          "source": "summary",
+          "text": "local://beginning",
+          "image": "spider.svg",
+          "textColor": "#7e57c2",
+          "animation": true,
+          "animationType": "zoom",
+          "animationOptions": ["top"]
+        },
+        "graduation": {
+          "source": "summary",
+          "text": "local://graduation",
+          "image": "clown.svg",
+          "textColor": "#7e57c2",
+          "animation": true,
+          "animationType": "zoom",
+          "animationOptions": ["top"]
+        },
+        "teaching": {
+          "source": "summary",
+          "text": "local://teaching",
+          "image": "cap.svg",
+          "textColor": "#7e57c2",
+          "animation": true,
+          "animationType": "zoom",
+          "animationOptions": ["top"]
+        },
+        "end": {
+          "source": "summary",
+          "text": "local://contact",
+          "image": "fireworks.svg",
+          "textColor": "#7e57c2",
+          "animation": true,
+          "animationType": "zoom",
+          "animationOptions": ["top"]
+        }
+      }
+    },
+    "contact": {
+      "title": "Contact Me",
+      "icon": "favorite",
+      "path": "/contact",
+      "components": {
+        "contact-page": {
+          "source": "summary",
+          "text": "local://contact",
+          "image": "clown.svg",
+          "textColor": "#7e57c2",
+          "animation": true,
+          "animationType": "zoom",
+          "animationOptions": ["right"]
+        }
+      }
+    },
+    "articles": {
+      "title": "Articles",
+      "icon": "favorite",
+      "path": "/articles",
+      "components": {
+        "contact-page": {
+          "source": "summary",
+          "text": "local://articles",
+          "image": "article.svg",
+          "textColor": "#7e57c2",
+          "animation": true,
+          "animationType": "zoom",
+          "animationOptions": ["left"]
+        }
+      }
+    },
+    "xp": {
+      "title": "XP",
+      "icon": "favorite",
+      "path": "/xp",
+      "components": {
+        "contact-page": {
+          "source": "summary",
+          "text": "local://history",
+          "image": "cap.svg",
+          "textColor": "#7e57c2",
+          "animation": true,
+          "animationType": "bounce",
+          "animationOptions": ["top"]
+        },
+        "skills": {
+          "source": "summary",
+          "text": "local://skills",
+          "image": "skills.svg",
+          "textColor": "#7e57c2",
+          "animation": true,
+          "animationType": "bounce",
+          "animationOptions": ["top"]
+        }
+      }
+    }
+  }
+}

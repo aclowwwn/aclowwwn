@@ -1,0 +1,20 @@
+{
+  "layout": {
+    "fixed": true
+  },
+  "permissions": {
+    "privateRedirect": "/me",
+    "publicRedirect": "/register"
+  },
+  "footer": {
+    "sections": [],
+    "socialMediaLinks": {
+      "facebook": "https://www.facebook.com/coman.andy",
+      "medium": "https://medium.com/@aclowwwn",
+      "instagram": "https://www.instagram.com/aclowwwn/",
+      "github": "https://github.com/aclowwwn",
+      "linkedin": "https://www.linkedin.com/in/aclowwwn/",
+      "twitter": "https://twitter.com/aclowwwn"
+    }
+  }
+}
