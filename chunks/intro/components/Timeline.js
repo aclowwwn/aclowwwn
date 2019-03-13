@@ -87,7 +87,7 @@ redirect(url) {
 
   renderXP (item) {
     if (item.id === 2) {
-      return <div style={{padding: '30px 0 10px 20px'}}>
+      return <div style={{padding: '30px 0 10px 20px', textAlign: 'center'}}>
         <div style={{background: '#425166', marginRight: 20, padding: 20, maxWidth: 300, textAlign: 'center', display: 'inline', cursor: 'pointer'}} onClick={this.redirect.bind(this, 'https://www.zippytech.io/')} >
           <img src="assets/zippy.svg"/>
         </div>
@@ -96,7 +96,7 @@ redirect(url) {
     }
 
     if (item.id === 3) {
-      return <div style={{padding: '30px 0 10px 20px'}}>
+      return <div style={{padding: '30px 0 10px 20px', textAlign: 'center'}}>
         <img style={{cursor: 'pointer', maxWidth: 200, paddingRight: 20}} src="assets/carmel.png" onClick={this.redirect.bind(this, 'http://carmel.io')}/>
         <img style={{cursor: 'pointer', maxWidth: 200, paddingRight: 20}} src="assets/chunky.gif" onClick={this.redirect.bind(this, 'http://chunky.io')}/>
         <div style={{cursor: 'pointer', background: '#425166', padding: 20, textAlign: 'center', display: 'inline'}} onClick={this.redirect.bind(this, 'http://eosnation.io')}>
