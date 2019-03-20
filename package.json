@@ -17,7 +17,7 @@
     "type": "git",
     "url": "git+https://github.com/react-chunky/react-chunky-product.git"
   },
-  "homepage": "aclowwwn.io",
+  "homepage": "aclowwwn.ro",
   "dependencies": {
     "react-dom-chunky": "0.9.x",
     "react-reveal": "^1.2.2",

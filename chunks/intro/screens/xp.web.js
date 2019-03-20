@@ -46,6 +46,11 @@ const tasks = [
     icon: 'thinking'
   },
   {
+    title: 'Blockchain...something @Fluid Trends',
+    description: `What color do you want your blockchain?`,
+    icon: 'cool'
+  },
+  {
     title: 'Community Manager @Fluid Trends',
     description: 'I love talking. Also, managing a 5k people community is always a pleasure.',
     icon: 'selfie'
@@ -139,9 +144,10 @@ export default class HistoryScreen extends Screen {
   }
 
   renderTasks() {
+    const width = this.isSmallScreen? '90vw': 'initial'
+
     return <div style={{textAlign: 'center', marginBottom: 50}}>
-      <img src="https://media.giphy.com/media/8N5UycsCWDlcs/giphy.gif" style={{cursor: 'pointer', marginRight: 40, marginBottom: 50}}/>
-      
+      <img src="https://media.giphy.com/media/8N5UycsCWDlcs/giphy.gif" style={{cursor: 'pointer', marginBottom: 50, width}}/>
       <div style={{border: '1px solid #E8E8E8', padding: 40}}>
         <List
           itemLayout="horizontal"
