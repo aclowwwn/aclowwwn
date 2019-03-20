@@ -127,7 +127,16 @@
           "textColor": "#7e57c2",
           "animation": true,
           "animationType": "bounce",
-          "animationOptions": ["top"]
+          "animationOptions": ["right"]
+        },
+        "tasks": {
+          "source": "summary",
+          "text": "local://tasks",
+          "image": "tasks.svg",
+          "textColor": "#7e57c2",
+          "animation": true,
+          "animationType": "bounce",
+          "animationOptions": ["left"]
         }
       }
     }
